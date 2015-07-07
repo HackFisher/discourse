@@ -383,7 +383,7 @@ zh_CN:
         instructions: "背景图片将被居中并且默认宽度为 590px。"
       email:
         title: "电子邮箱"
-        instructions: "绝不会被公开显示"
+        instructions: "绝不会被公开显示，可以输入自己的QQ号加上@qq.com，例如：1234@qq.com"
         ok: "我们将邮件跟你确认"
         invalid: "请填写正确的电子邮箱地址"
         authenticated: "你的电子邮箱已经被 {{provider}} 验证了。"
@@ -858,21 +858,29 @@ zh_CN:
           '2_4': '因为你在此主题内发表了回复，所以你将收到相关通知。'
           '2_2': '因为你在追踪此主题，所以你将收到相关通知。'
           '2': '因为你<a href="/users/{{username}}/preferences">阅读了此主题</a>，所以你将收到相关通知。'
+          '1_2': '只有当有人@你或者回复你的帖子时，你才会收到通知。'
+          '1': '只有当有人@你或者回复你的帖子时，你才会收到通知。'
           '0_7': '你将忽略关于此分类的所有通知。'
           '0_2': '你将忽略关于此主题的所有通知。'
           '0': '你将忽略关于此主题的所有通知。'
         watching_pm:
           title: "关注"
+          description: "一旦私信中有新消息，你都会收到通知。未读和新帖子的数量将显示在主题列表的每个主题后。"
         watching:
           title: "关注"
+          description: "一旦有关于这个主题的新帖子发表，你都会收到通知。未读贴的数量将出现在主题列表中每个主题的标题后。"
         tracking_pm:
           title: "追踪"
+          description: "未读和新帖子的数量将出现在私信旁。你只会在别人@你或回复你的主题时才会被提醒。"
         tracking:
           title: "追踪"
+          description: "未读贴和新帖的数量将出现在主题列表中每个主题的标题后。你只会在别人@你或有人回复了你的帖子时才会收到通知。"
         regular:
           title: "常规"
+          description: "当有人@你或者回复你的帖子时，你才会收到通知。"
         regular_pm:
           title: "常规"
+          description: "当有人@你或者回复你的私信时，你才会收到通知。"
         muted_pm:
           title: "防打扰"
           description: "你不会收到关于此消息的任何通知。"
@@ -1312,7 +1320,10 @@ zh_CN:
       with_topics: "%{filter}主题"
       with_category: "%{category}的%{filter}主题"
       latest:
-        title: "最新"
+        title:
+          zero: "最新"
+          one: "最新 (1)"
+          other: "最新 ({{count}})"
         help: "最新发布的帖子"
       hot:
         title: "热门"
