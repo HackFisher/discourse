@@ -32,40 +32,65 @@ zh_CN:
       tiny:
         half_a_minute: "< 1 分钟"
         less_than_x_seconds:
+          one:   "< 1秒钟"
           other: "< %{count}秒钟"
         x_seconds:
+          one:   "1秒钟"
           other: "%{count}秒钟前"
         less_than_x_minutes:
+          one:   "< 1分钟"
           other: "< %{count}分钟"
         x_minutes:
+          one:   "1分钟"
           other: "%{count}分钟前"
         about_x_hours:
+          one:   "1小时"
           other: "%{count}小时前"
         x_days:
+          one:   "1日前"
           other: "%{count}日前"
         about_x_years:
+          one:   "约1年前"
           other: "约%{count}年前"
         over_x_years:
+          one:   "> 1年"
           other: "> %{count}年"
         almost_x_years:
+          one:   "近1年"
           other: "近%{count}年"
         date_month: "MMMDo"
         date_year: "YY-MM-D"
       medium:
         x_minutes:
+          one: "1分钟"
           other: "%{count}分钟"
         x_hours:
+          one: "1小时"
           other: "%{count}小时"
         x_days:
+          one: "1日"
           other: "%{count}日"
         date_year: "YY年MMMDo"
       medium_with_ago:
         x_minutes:
+          one: "1分钟前"
           other: "%{count}分钟前"
         x_hours:
+          one: "1小时前"
           other: "%{count}小时前"
         x_days:
+          one: "1日前"
           other: "%{count}日前"
+      later:
+        x_days:
+          one: "1天后"
+          other: "%{count}天后"
+        x_months:
+          one: "1月后"
+          other: "%{count}月后"
+        x_years:
+          one: "1年后"
+          other: "%{count}年后"
     share:
       topic: '分享本主题的链接'
       post: '#%{postNumber} 楼'
