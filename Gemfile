@@ -78,6 +78,7 @@ gem 'omniauth-github-discourse', require: 'omniauth-github'
 
 gem 'omniauth-oauth2', require: false
 gem 'omniauth-google-oauth2'
+gem 'ruby-pinyin'
 gem 'oj'
 gem 'pg'
 gem 'pry-rails', require: false
