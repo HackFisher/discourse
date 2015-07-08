@@ -302,6 +302,8 @@ GEM
     rspec-support (3.2.2)
     rtlit (0.0.5)
     ruby-openid (2.5.0)
+    ruby-pinyin (0.4.5)
+      rmmseg-cpp (~> 0.2)
     ruby-readability (0.7.0)
       guess_html_encoding (>= 0.0.4)
       nokogiri (>= 1.6.0)
@@ -464,6 +466,7 @@ DEPENDENCIES
   rspec-given
   rspec-rails
   rtlit
+  ruby-pinyin
   ruby-readability
   sanitize
   sass
